@@ -11,11 +11,30 @@
 <body onload="main();">
 
     <div id="impress">
-        <!-- Slide #1-->
+        <!-- SLIDE #1-->
         <div id="1" class="step slide">
-            <p>There is a Time machine over there, flip the switch ?</p>
-            <p><a href="">Flip </a>it. </p>
-            <p><a href="">Wait </a> for your dad, who is scientist, to come home </p>
+            <div class="slide-text">
+                <p>Hey, there's a time machine over there, flip the switch?</p>
+                <p><a href="#2">FLIP</a> it.</p>
+                <p><a href="#3">WAIT</a> for your dad, who is a scientist, to come home.</p>
+            </div>
+        </div>
+
+        <!-- SLIDE #2-->
+        <div id="2" class="step slide" data-x="1500">
+            <div class="slide-text">
+                <p>You went back in time, it was fun!</p>
+                <div class="menu"><a href="#1">START OVER</a></div>
+            </div>
+        </div>
+
+        <!-- SLIDE #3-->
+        <div id="3" class="step slide" data-x="-1500">
+            <div class="slide-text">
+                <p>Your dad came home and he didn't let you use the time machine.</p>
+                <p>You Got Bored!</p>
+                <div class="menu"><a href="#1">START OVER</a></div>
+            </div>
         </div>
     </div>
 
